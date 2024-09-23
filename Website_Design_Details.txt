@@ -1,0 +1,119 @@
+Document Title: Creating the Binyte Website with Detailed Design Specifications
+
+Overview
+This document describes the structure, layout, colors, and position of all elements to recreate the Binyte website. The website is designed to highlight Binyte's services, experience, and contact information.
+
+Sections Breakdown with Detailed Specifications
+1. Header
+Position:
+Fixed at the top of the page with a height of 80px.
+Full-width (100%).
+Background Color: #f5f5f5 (light gray).
+Logo:
+Positioned at the top-left corner (15px from left edge, vertically centered).
+Font Style for "Binyte": Use a bold sans-serif font like Montserrat Bold, sized at 24px.
+Color: #333333 (dark gray).
+Navigation Menu:
+Positioned on the right side of the header.
+Menu items: "Home," "Portfolio," "Contact Us," "About".
+Font: Open Sans, 16px, weight 600, color: #333333.
+Hover Effect: Text color changes to #007BFF (blue).
+Spacing: 30px spacing between each menu item.
+Login Button:
+Positioned on the far right.
+Button style: Rounded edges (border-radius: 8px), background color #007BFF (blue), text color #ffffff (white), and padding of 8px 16px.
+Hover Effect: Background changes to #0056b3 (darker blue).
+2. Homepage
+Main Banner:
+
+Position: Centered in the viewport.
+Background Color: #ffffff (white).
+Text:
+"Hey everyone, thanks for visiting our website."
+Font: Montserrat Medium, size 28px, color: #333333.
+Positioned with a top padding of 100px.
+"Binyte.co is a multi-service agency offering website design, development, video editing, and social media growth for brands and companies."
+Font: Open Sans, size 18px, color: #666666 (gray).
+Positioned directly beneath the main header, with 20px spacing.
+Services Section:
+
+Position: Directly beneath the homepage banner.
+Title: "Services"
+Font: Montserrat Bold, size 36px, color: #333333.
+Positioned 50px below the banner.
+Service Descriptions:
+Each service (web designing, development, hosting, social media management) is displayed in a grid layout, 2 columns on desktop, 1 column on mobile.
+Font: Open Sans, size 16px, color: #666666.
+Button:
+Know More button placed under each service description.
+Button style: Background color #007BFF, text color #ffffff, padding 10px 20px, border-radius 6px.
+Hover Effect: Background changes to #0056b3.
+Social Media Links:
+
+Positioned horizontally centered below the services section.
+Icons (Twitter, Instagram, Email, LinkedIn) should be sized at 24px, spaced 20px apart.
+Color: #007BFF.
+Hover Effect: Color change to #0056b3.
+3. What We Do Section
+Position: Full-width section, with padding of 100px from the top.
+Background Color: #f9f9f9 (very light gray).
+Title: "What can we do for you?"
+Font: Montserrat Bold, size 30px, color: #333333, centered.
+Text: Summary of work and statistics.
+Font: Open Sans, size 18px, color: #666666.
+Statistics (100+ Projects, etc.) are styled in bold with the same font, size 22px, color #007BFF.
+Grid Layout: Use a 2-column layout for desktop, 1-column layout for mobile, evenly spaced.
+4. Service Details
+Position: Full-width section below the "What We Do" section.
+Background Color: #ffffff.
+Individual Service Blocks: (App Design, Social Media, Web Design, UI/UX Design, App Development, Website Development)
+Title: Bold, Montserrat Bold, size 24px, color: #333333.
+Description: Open Sans, size 16px, color #666666, with 15px of margin above the title.
+Know More Button:
+Same style as described earlier: Blue (#007BFF), white text, padding 10px 20px, border-radius 6px.
+Positioned under the service description, center-aligned.
+Grid Layout: 3 columns for desktop, 1 column for mobile.
+5. About Us Section
+Position: Full-width section, padding of 100px from the top.
+Background Color: #f9f9f9.
+Title: "What is Binyte?"
+Font: Montserrat Bold, size 30px, color: #333333, centered.
+Text: Description of Binyte’s services and packages.
+Font: Open Sans, size 18px, color #666666, centered.
+Packages: List of packages displayed in a centered, 2-column layout on desktop, 1 column on mobile.
+6. Contact Us & Footer
+Contact Form:
+
+Positioned above the footer with a light gray background (#f5f5f5).
+Form Fields: Name, Email, Message fields.
+Input styles: Rounded corners (border-radius: 6px), padding 10px, border 1px solid #cccccc.
+Submit Button: Blue (#007BFF), white text, border-radius 6px, padding 10px 20px.
+Positioned center-aligned with a width of 50% on desktop and 90% on mobile.
+Footer:
+
+Background Color: #333333.
+Text Color: White (#ffffff).
+Links (Privacy Policy, Terms and Conditions, etc.): Styled in white, with a hover effect to turn blue (#007BFF).
+Footer Text: "All rights reserved @ Binyte" centered, font-size 14px, color #666666.
+Design & Development Details
+Color Palette:
+Primary Color: #007BFF (blue).
+Secondary Colors:
+#f5f5f5 (light gray)
+#333333 (dark gray)
+#666666 (medium gray)
+#ffffff (white)
+Button Hover Color: #0056b3 (darker blue).
+Typography:
+Primary Font: Montserrat (Bold for titles, Medium for headers).
+Secondary Font: Open Sans (for body text, buttons, and descriptions).
+Positioning and Layout:
+Use a 12-column grid system (like Bootstrap) for a consistent layout.
+Ensure all elements are center-aligned or spaced out evenly with appropriate padding.
+Responsive Design: Breakpoints at 768px and 1200px for mobile and desktop views.
+Development Considerations
+HTML5 Semantics: Use semantic tags like <header>, <section>, <footer> for SEO and accessibility.
+CSS Grid/Flexbox: Use CSS Grid for the service and project layouts to ensure responsiveness.
+JavaScript: Use JS for dynamic elements like form validation and animations (smooth scroll, hover effects).
+CMS: Optionally integrate with a CMS like WordPress for easy content management.
+Hosting: Ensure the site is hosted on a fast server with SSL for security.
