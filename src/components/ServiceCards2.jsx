@@ -27,19 +27,19 @@ const Services2 = () => {
       title: "UI UX Design",
       description:
         "Everyone should pay more attention to the ui and ux of a website or software. Having a good and user-friendly interface makes a huge difference.",
-      icon: "../src/assets/ui.png",
+      icon: "ui.png",
     },
     {
       title: "Website Development",
       description:
         "Everyone should pay more attention to the ui and ux of a website or software. Having a good and user-friendly interface makes a huge difference.",
-      icon: "../src/assets/coding.png",
+      icon: "coding.png",
     },
     {
       title: "App Development",
       description:
         "Everyone should pay more attention to the ui and ux of a website or software. Having a good and user-friendly interface makes a huge difference.",
-      icon: "../src/assets/app-development.png",
+      icon: "app-development.png",
     },
   ];
 

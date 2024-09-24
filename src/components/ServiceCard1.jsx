@@ -26,21 +26,21 @@ const Services1 = () => {
       title: "App Design",
       description:
         "Having an app nowadays is very important for business...",
-      icon: "../src/assets/app-design.jpg", 
+      icon: "app-design.jpg", 
       link: "#",
     },
     {
       title: "Web Design",
       description:
         "Having a website nowadays is very important for business...",
-      icon: "../src/assets/web-design.jpg",
+      icon: "web-design.jpg",
       link: "#", 
     },
     {
       title: "Social Media",
       description:
         "Social media is one of the best ways to grow your business...",
-      icon: "../src/assets/social-media.jpg", 
+      icon: "social-media.jpg", 
       link: "#",
     },
   ];
