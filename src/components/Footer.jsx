@@ -1,25 +1,38 @@
-import React from 'react'
-
 function Footer() {
   return (
-    <section id="contact us" className="w-full bg-gray-100 py-24">
-      <form className="max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold text-gray-800 mb-5">Contact Us</h2>
-        <input type="text" placeholder="Name" className="w-full mb-4 p-2 border border-gray-300 rounded-lg" />
-        <input type="email" placeholder="Email" className="w-full mb-4 p-2 border border-gray-300 rounded-lg" />
-        <textarea placeholder="Message" className="w-full mb-4 p-2 border border-gray-300 rounded-lg"></textarea>
-        <button className="bg-blue-500 text-white rounded-lg px-4 py-2 hover:bg-blue-700">Submit</button>
-      </form>
-      <footer className="bg-gray-800 text-white py-4 text-center">
-        <p className="text-sm">All rights reserved @ Binyte</p>
-        <div className="flex justify-center space-x-5">
-          {["Privacy Policy", "Terms and Conditions"].map(link => (
-            <a key={link} href={`#${link.toLowerCase()}`} className="hover:text-blue-500">{link}</a>
-          ))}
+    <footer className="bg-neutral-950 text-gray-400 py-8 px-4 md:px-24">
+      <div className="flex flex-col md:flex-row justify-start items-start space-x-8 md:space-y-0 text-2xl">
+        <div className="flex flex-col space-y-2">
+          <a href="#" className="hover:text-white">
+            Contact Us
+          </a>
+          <a href="#" className="hover:text-white">
+            Privacy Policy
+          </a>
+          <a href="#" className="hover:text-white">
+            Terms and Conditions
+          </a>
+          <a href="#" className="hover:text-white">
+            FAQ
+          </a>
         </div>
-      </footer>
-    </section>
-  )
+        <div className="flex flex-col space-y-2">
+          <a href="#" className="hover:text-white">
+            Blog
+          </a>
+          <a href="#" className="hover:text-white">
+            Partner with Us
+          </a>
+          <a href="#" className="hover:text-white">
+            Career
+          </a>
+        </div>
+      </div>
+      <div className="mt-6 text-center md:text-right text-sm">
+        All rights are reserved &copy; 2024
+      </div>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
